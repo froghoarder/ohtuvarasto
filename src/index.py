@@ -17,7 +17,8 @@ def mehu(mehua):
     print(f"Mehuvarasto: {mehua}")
 
 def varastot(olutta, mehua):
-    print(f"Olutvarasto: {olutta}\nolutta.lisaa_varastoon(1000.0)")
+    print(f"Olutvarasto: {olutta}\n")
+    print("olutta.lisaa_varastoon(1000.0)")
     olutta.lisaa_varastoon(1000.0)
     print(f"Olutvarasto: {olutta}")
 
