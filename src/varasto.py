@@ -2,7 +2,7 @@
 
 
 class Varasto:
-
+    """Track stock levels within a maximum capacity."""
 
     def __init__(self, tilavuus, alku_saldo=0):
         self.tilavuus = self._validate_tilavuus(tilavuus)
